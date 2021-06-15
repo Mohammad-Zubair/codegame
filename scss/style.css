@@ -856,13 +856,44 @@
 
 .projects-show {
   font-family: "BentonSansRegular"; }
+  .projects-show .projects-show-text .funding {
+    color: #088366; }
+    .projects-show .projects-show-text .funding:hover {
+      text-decoration: none; }
+  .projects-show .projects-show-text .description {
+    color: #2a2a2a; }
   .projects-show .projects-show-text .company {
     position: relative; }
     .projects-show .projects-show-text .company img {
-      position: absolute; }
+      position: absolute;
+      top: 5px; }
     .projects-show .projects-show-text .company p {
       position: relative;
       left: 45px; }
+    .projects-show .projects-show-text .company a {
+      color: #2a2a2a; }
+  .projects-show .projects-show-text .price {
+    color: #2a2a2a;
+    font-weight: 900; }
+    .projects-show .projects-show-text .price span {
+      font-weight: normal;
+      font-size: 12px; }
+  .projects-show .projects-show-text .persentage {
+    color: #2a2a2a; }
+  .projects-show .projects-show-text .persentage-of-persentage {
+    color: #2a2a2a; }
+    .projects-show .projects-show-text .persentage-of-persentage span {
+      font-weight: 700; }
+  .projects-show .projects-show-text .social-icon a {
+    color: #2a2a2a;
+    opacity: 0.5;
+    transition: 0.5s; }
+    .projects-show .projects-show-text .social-icon a:hover {
+      opacity: 1; }
+  .projects-show .projects-show-text .progress {
+    height: 0.6rem; }
+  .projects-show .projects-show-text .progress-bar {
+    background-color: #34ca96; }
 
 .project-tabs {
   font-family: "BentonSansRegular"; }
@@ -871,9 +902,48 @@
     padding-bottom: 15px; }
     .project-tabs .nav-tabs a {
       text-transform: uppercase;
-      padding-right: 20px;
+      margin-right: 20px;
       color: #2a2a2a; }
-      .project-tabs .nav-tabs a .active {
-        font-weight: 600; }
+      .project-tabs .nav-tabs a:hover {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #6a6a6a;
+        text-decoration: none; }
+  .project-tabs .active {
+    padding-bottom: 5px;
+    font-weight: 600;
+    border-bottom: 2px solid #2a2a2a; }
+  .project-tabs .learn-more {
+    color: #2a2a2a;
+    font-weight: 600; }
+  .project-tabs .story-text {
+    font-weight: normal; }
+  .project-tabs .icon-link {
+    color: #2a2a2a;
+    opacity: 0.5; }
+  .project-tabs #comments .coment-sec img {
+    position: absolute;
+    border-radius: 50px;
+    width: 60px; }
+  .project-tabs #comments .coment-sec p {
+    padding-left: 80px;
+    font-weight: normal;
+    color: #6a6a6a; }
+    .project-tabs #comments .coment-sec p .name {
+      color: #2a2a2a;
+      font-weight: 700; }
+      .project-tabs #comments .coment-sec p .name:hover {
+        color: #e51075; }
+    .project-tabs #comments .coment-sec p .like {
+      color: #e51075;
+      font-size: 22px; }
+      .project-tabs #comments .coment-sec p .like:hover {
+        text-decoration: none; }
+    .project-tabs #comments .coment-sec p .dislike {
+      color: #405c9d;
+      font-size: 22px; }
+      .project-tabs #comments .coment-sec p .dislike:hover {
+        text-decoration: none; }
+  .project-tabs #comments .login {
+    color: #2a2a2a; }
 
 /*# sourceMappingURL=style.css.map */
