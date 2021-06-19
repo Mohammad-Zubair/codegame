@@ -372,8 +372,38 @@
                                         begin production may be affected by product development or financial challenges.
                                         <a href="#" class="learn-more">Learn More</a>
                                     </p>
-                                    <p>
-                                        <a href="#" class="icon-link pr-3"><i class="fa fa-star"></i> Fashion-Forward Finds</a>
+                                    <div class="md-stepper-horizontal">
+                                        <div class="md-step done">
+                                            <div class="md-step-circle black"><span><i class="fa fa-check"></i></span>
+                                            </div>
+                                            <div class="md-step-title black">Concept</div>
+                                            <div class="md-step-bar-left"></div>
+                                            <div class="md-step-bar-right"></div>
+                                        </div>
+                                        <div class="md-step editable">
+                                            <div class="md-step-circle green"><span><i class="fa fa-wrench"></i></span>
+                                            </div>
+                                            <div class="md-step-title green">Prototype</div>
+                                            <!-- <div class="md-step-optional">Optional</div> -->
+                                            <div class="md-step-bar-left"></div>
+                                            <div class="md-step-bar-right"></div>
+                                        </div>
+                                        <div class="md-step">
+                                            <div class="md-step-circle"><span><i class="fa fa-table"></i></span></div>
+                                            <div class="md-step-title">Production</div>
+                                            <div class="md-step-bar-left"></div>
+                                            <div class="md-step-bar-right"></div>
+                                        </div>
+                                        <div class="md-step">
+                                            <div class="md-step-circle"><span><i class="fa fa-truck"></i></span></div>
+                                            <div class="md-step-title">Shipping</div>
+                                            <div class="md-step-bar-left"></div>
+                                            <div class="md-step-bar-right"></div>
+                                        </div>
+                                    </div>
+                                    <p class="mt-4">
+                                        <a href="#" class="icon-link pr-3"><i class="fa fa-star"></i> Fashion-Forward
+                                            Finds</a>
                                         <a href="#" class="icon-link"><i class="fa fa-flag"></i> 4 Projects</a>
                                     </p>
                                 </div>
@@ -519,7 +549,8 @@
                                     <p>
                                         <a href="#" class="name">Bobby Chan</a> <span>4 hours ago</span>
                                         <br>
-                                        How do I add the rechargeable case? I don’t see an option for it any add on item.
+                                        How do I add the rechargeable case? I don’t see an option for it any add on
+                                        item.
                                         <br>
                                         <a href="#" class="like mr-3"><i class="fa fa-thumbs-up "></i> 0</a>
                                         <a href="#" class="dislike"><i class="fa fa-thumbs-down"></i> 1</a>
@@ -621,7 +652,7 @@
                 <div class="col-lg-12 py-3">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-gray-outline px-4" data-toggle="modal"
-                        data-target="#exampleModal">
+                        data-target="#currencyModal">
                         Select Currency
                     </button>
 
@@ -632,7 +663,7 @@
                     <a href="#" class="social-links"><i class="fa fa-linkedin"></i></a>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    <div class="modal fade" id="currencyModal" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -651,6 +682,11 @@
                                         charged by your card issuer in your local currency may differ from our estimate,
                                         based on their exchange rate and any applicable fees.
                                     </p>
+                                    <select>
+                                        <option>UAE Dirham (AED)</option>
+                                        <option>$ US Dollar (USD)</option>
+                                        <option>Do not convert currency</option>
+                                    </select>
                                 </div>
                                 <div class="modal-footer">
                                     <a href="#" class="btn btn-white  mr-3" data-dismiss="modal">Cancel</a>

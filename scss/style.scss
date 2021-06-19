@@ -611,9 +611,8 @@
 .footer-sec {
   font-family: $Benton-sans-font;
 
-  .left-right-padding {
-    padding-left : 5%;
-    padding-right: 5%;
+  select {
+    padding: 5px 8px;
   }
 
   a {
@@ -1361,8 +1360,184 @@
       color: $secondary-color;
     }
   }
+
+  // Stepper
+  .md-stepper-horizontal {
+    display         : table;
+    width           : 100%;
+    margin          : 0 auto;
+    background-color: #FFFFFF;
+    /* box-shadow   : 0 3px 8px -6px rgba(0, 0, 0, .50); */
+  }
+
+  .md-stepper-horizontal .md-step {
+    display : table-cell;
+    position: relative;
+    padding : 24px 0px 0px 0px;
+  }
+
+  .md-stepper-horizontal .md-step:active {
+    border-radius: 15% / 75%;
+  }
+
+  .md-stepper-horizontal .md-step:first-child:active {
+    border-top-left-radius   : 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .md-stepper-horizontal .md-step:last-child:active {
+    border-top-right-radius   : 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .md-stepper-horizontal .md-step:hover .md-step-circle {
+    background-color: #757575;
+  }
+
+  .md-stepper-horizontal .md-step:first-child .md-step-bar-left,
+  .md-stepper-horizontal .md-step:last-child .md-step-bar-right {
+    display: none;
+  }
+
+  .md-stepper-horizontal .md-step .md-step-circle {
+    width           : 30px;
+    height          : 30px;
+    margin          : 0 auto;
+    background-color: #999999;
+    border-radius   : 50%;
+    text-align      : center;
+    line-height     : 30px;
+    font-size       : 16px;
+    font-weight     : 600;
+    color           : #FFFFFF;
+  }
+
+  .md-step-circle.black {
+    background-color: #000000 !important;
+  }
+
+  .md-step-circle.green {
+    background-color: #088366 !important;
+  }
+
+
+  .md-stepper-horizontal .md-step .md-step-title {
+    margin-top : 16px;
+    font-size  : 16px;
+    font-weight: 600;
+  }
+
+  .md-stepper-horizontal .md-step .md-step-title,
+  .md-stepper-horizontal .md-step .md-step-optional {
+    text-align: center;
+  }
+
+  .md-stepper-horizontal .md-step .md-step-title.black {
+    color: rgb(0, 0, 0) !important;
+  }
+
+  .md-stepper-horizontal .md-step .md-step-title.green {
+    color: rgb(8, 131, 102) !important;
+  }
+
+  .md-stepper-horizontal .md-step.active .md-step-title {
+    font-weight: 600;
+    color      : rgba(0, 0, 0, .87);
+  }
+
+  .md-stepper-horizontal .md-step .md-step-optional {
+    font-size: 12px;
+  }
+
+  .md-stepper-horizontal .md-step.active .md-step-optional {
+    color: rgba(0, 0, 0, .54);
+  }
+
+  .md-stepper-horizontal .md-step .md-step-bar-left,
+  .md-stepper-horizontal .md-step .md-step-bar-right {
+    position  : absolute;
+    top       : 36px;
+    height    : 1px;
+    border-top: 1px solid #DDDDDD;
+  }
+
+  .md-stepper-horizontal .md-step .md-step-bar-right {
+    right      : 0;
+    left       : 50%;
+    margin-left: 20px;
+  }
+
+  .md-stepper-horizontal .md-step .md-step-bar-left {
+    left        : 0;
+    right       : 50%;
+    margin-right: 20px;
+  }
+
+  // Stepper
 }
 
 // project tabs
 
 // Project Page
+
+
+// Payment page
+
+// payment-sec
+.payment-sec {
+  font-family: $Benton-sans-font;
+
+  .red {
+    color: $primary-color;
+  }
+
+  .title {
+    color: $gray-light-color;
+  }
+
+  .sub-title {
+    color: $secondary-color;
+  }
+
+  .back-link {
+    color     : $secondary-color;
+    transition: 0.3s;
+
+    &:hover {
+      color          : $primary-color;
+      text-decoration: none;
+    }
+  }
+
+  .login {
+    color: $secondary-color;
+  }
+
+  .policy {
+    color: $primary-color;
+  }
+
+  label {
+    padding-top: 8px;
+
+    span {
+      color: $primary-color;
+    }
+  }
+
+  input {
+    padding: 8px 12px;
+    outline: none;
+    border : 1px solid $gray-light-color;
+  }
+
+  .tip {
+    p {
+      font-weight: bold;
+    }
+  }
+}
+
+// payment-sec
+
+// Payment page
