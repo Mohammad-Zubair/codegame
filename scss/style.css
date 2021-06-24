@@ -1044,4 +1044,69 @@
   .payment-sec .tip p {
     font-weight: bold; }
 
+.about-us {
+  font-family: "BentonSansRegular"; }
+  .about-us a {
+    display: block;
+    color: #e51075;
+    font-weight: 500;
+    padding-bottom: 5px; }
+  .about-us p {
+    font-size: 18px;
+    letter-spacing: 1px; }
+  .about-us .first-bg {
+    background-image: url(../images/about-us.jpg);
+    background-size: cover;
+    height: 100vh; }
+    .about-us .first-bg h2 {
+      color: #ffffff;
+      padding-top: 45vh; }
+  .about-us .second-bg {
+    background-image: url(../images/about-us-two.jpg);
+    background-size: cover;
+    height: 60vh; }
+    .about-us .second-bg h2 {
+      color: #ffffff;
+      padding-top: 30vh; }
+  .about-us .bg-gray h1 {
+    color: #e51075; }
+  .about-us .bg-white a {
+    display: inline;
+    padding-bottom: 10px; }
+
+.blog .blog-link {
+  color: #2a2a2a; }
+
+.carrer {
+  font-family: "BentonSansRegular"; }
+  .carrer a {
+    display: block;
+    color: #e51075;
+    font-weight: 500;
+    padding-bottom: 5px; }
+  .carrer p {
+    font-size: 18px;
+    letter-spacing: 1px; }
+  .carrer .first-bg {
+    background-image: url(../images/carrer.png);
+    background-size: 100% 100%;
+    height: 60vh; }
+    .carrer .first-bg h2 {
+      color: #ffffff;
+      padding-top: 25vh; }
+    .carrer .first-bg p {
+      color: #ffffff; }
+  .carrer .second-bg {
+    background-image: url(../images/about-us-two.jpg);
+    background-size: cover;
+    height: 60vh; }
+    .carrer .second-bg h2 {
+      color: #ffffff;
+      padding-top: 30vh; }
+  .carrer .bg-gray h1 {
+    color: #e51075; }
+  .carrer .bg-white a {
+    display: inline;
+    padding-bottom: 10px; }
+
 /*# sourceMappingURL=style.css.map */
